@@ -3,6 +3,7 @@
 </p>
 
 <br>
+
 # 🛡️ Red Specter: DDoS Flood Sentinel (v0.1 – Bash MVP)
 
 [![Stars](https://img.shields.io/github/stars/RichardBarron27/redspecter-scriptmap?style=flat&logo=github)](https://github.com/RichardBarron27/redspecter-scriptmap/stargazers)
