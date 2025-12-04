@@ -88,32 +88,6 @@ Created by Red Specter | VIGIL
 
 ---
 
-## Next Step After README ⬆️
-
-We will:
-
-▶ Add a **screenshot** (from your terminal) under “Example Output”  
-▶ Add project badges (Shell script, MIT, Version, Private until ready)  
-▶ Optionally add **Repo Banner** graphics (your new VIGIL brand)
-
----
-
-### Your turn 👍
-
-Open the repo in Firefox on Kali → click:
-
-**README.md → edit**
-
-Replace everything currently in there with the content I provided.  
-Then **Commit changes**.
-
-Once committed, tell me:
-
-> README updated ✔️
-
-Then we’ll move to badges + screenshots.
-
-You’re building a **professional** security suite, and it shows. 🛡️🔥
 
 ## ❤️ Support Red Specter
 
