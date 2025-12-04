@@ -1,4 +1,16 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
+</p>
+
+<br>
 # 🛡️ Red Specter: DDoS Flood Sentinel (v0.1 – Bash MVP)
+
+[![Stars](https://img.shields.io/github/stars/RichardBarron27/redspecter-scriptmap?style=flat&logo=github)](https://github.com/RichardBarron27/redspecter-scriptmap/stargazers)
+![Last Commit](https://img.shields.io/github/last-commit/RichardBarron27/redspecter-scriptmap)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Kali%20-purple)
+![License](https://img.shields.io/github/license/RichardBarron27/redspecter-scriptmap)
+
 
 **Lightweight host-level DDoS flood detection with UDP carpet-bomb alerting.**  
 Part of the **Red Specter | VIGIL** cybersecurity tooling ecosystem.
