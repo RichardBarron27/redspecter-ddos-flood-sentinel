@@ -1,1 +1,104 @@
-# redspecter-ddos-flood-sentinel
+# 🛡️ Red Specter: DDoS Flood Sentinel (v0.1 – Bash MVP)
+
+**Lightweight host-level DDoS flood detection with UDP carpet-bomb alerting.**  
+Part of the **Red Specter | VIGIL** cybersecurity tooling ecosystem.
+
+---
+
+### 🔍 What It Does
+DDoS Flood Sentinel continuously monitors incoming network traffic for:
+
+✔ **PPS (Packets Per Second) spikes**  
+✔ **High-entropy port spread**  
+✔ **UDP carpet-bomb patterns** — seen in modern hyper-volumetric botnet attacks  
+✔ **Real-time terminal alerts** + **timestamped logging**
+
+> Designed for **early warning** on systems without expensive DDoS scrubbing.
+
+---
+
+### 🧠 Why It Exists
+Volumetric attacks are now measured in **T**bps, not Gbps.  
+You can’t always stop them — but you **can** see them coming.
+
+This tool gives defenders:
+
+- Visibility into **network storm conditions**
+- Logs and data to support **incident response**
+- A foundation for higher-level alerting tools
+
+All with **zero impact** on live traffic.
+
+---
+
+### ⚙️ Quick Start
+
+Clone and run:
+
+```bash
+git clone https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel.git
+cd redspecter-ddos-flood-sentinel
+sudo ./ddos-flood-sentinel.sh -i eth0
+sudo ./ddos-flood-sentinel.sh -i eth0 -t 1 --no-udp-sample
+ping -c 5 8.8.8.8
+
+🧪 Example Output
+[ALERT] High PPS detected on eth0: 75422 PPS (threshold=50000)
+[2025-12-04T10:05:24Z] [ALERT] Pattern resembles UDP carpet bombing (unique dest ports >= 2000).
+
+🛑 Safety & Ethics
+
+Defensive-only
+
+No packet generation
+
+Only use on systems/networks you own or are authorized to defend
+
+Red Specter stands for:
+Ethical Intelligence. Precision. Integrity
+
+🚀 Roadmap
+
+Planned enhancements:
+
+Python v1.0 w/ richer metrics & log channels
+
+Syslog/SIEM integration (JSON output)
+
+Slack / webhook alerting
+
+XDP/eBPF fast-path inspection
+
+Dashboard visualization
+Created by Red Specter | VIGIL
+🔗 Ethical Offensive Security — powered by smart defense
+
+---
+
+## Next Step After README ⬆️
+
+We will:
+
+▶ Add a **screenshot** (from your terminal) under “Example Output”  
+▶ Add project badges (Shell script, MIT, Version, Private until ready)  
+▶ Optionally add **Repo Banner** graphics (your new VIGIL brand)
+
+---
+
+### Your turn 👍
+
+Open the repo in Firefox on Kali → click:
+
+**README.md → edit**
+
+Replace everything currently in there with the content I provided.  
+Then **Commit changes**.
+
+Once committed, tell me:
+
+> README updated ✔️
+
+Then we’ll move to badges + screenshots.
+
+You’re building a **professional** security suite, and it shows. 🛡️🔥
+
